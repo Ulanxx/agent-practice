@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agent 生产之殇</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-gray-100">
+
+<div class="ppt-page-wrapper" style="width: 1280px; height: 720px; overflow: hidden; position: relative;">
+    <!-- Header -->
+    <div class="absolute top-0 left-0 w-full h-12 bg-blue-500 text-white flex items-center justify-between px-6 z-10">
+        <div class="font-bold">Agent 生产之殇：如何将 LLM 的不确定性关进工程沙盒</div>
+        <div></div>
+    </div>
+    <!-- Footer -->
+    <div class="absolute bottom-0 left-0 w-full h-10 bg-blue-500 text-white flex items-center justify-end px-6 z-10">
+        <div>1 / 10</div>
+    </div>
+    <!-- Content -->
+    <div class="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center" style="background: linear-gradient(to right, #4285F4, #34A853);">
+        <h1 class="text-6xl font-bold text-white mb-4">Agent 生产之殇</h1>
+        <p class="text-2xl text-white">如何将 LLM 的不确定性关进工程沙盒</p>
+        <div class="absolute bottom-20 right-20">
+          <i class="fas fa-atom fa-5x text-blue-200 animate-spin"></i>
+        </div>
+
+    </div>
+</div>
+
+<div class="ppt-page-wrapper" style="width: 1280px; height: 720px; overflow: hidden; position: relative;">
+    <!-- Header -->
+    <div class="absolute top-0 left-0 w-full h-12 bg-blue-500 text-white flex items-center justify-between px-6 z-10">
+        <div class="font-bold">Agent 生产之殇：如何将 LLM 的不确定性关进工程沙盒</div>
+        <div></div>
+    </div>
+    <!-- Footer -->
+    <div class="absolute bottom-0 left-0 w-full h-10 bg-blue-500 text-white flex items-center justify-end px-6 z-10">
+        <div>2 / 10</div>
+    </div>
+    <!-- Content -->
+    <div class="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center bg-white">
+        <h2 class="text-4xl font-bold text-gray-800 mb-8">现状：为什么我们在“抽卡”？</h2>
+        <div class="flex items-center justify-around w-full px-20">
+            <div>
+                <i class="fas fa-cog fa-5x text-blue-500 mb-4"></i>
+                <p class="text-center text-gray-600">齿轮</p>
+            </div>
+            <div>
+              <i class="fas fa-random fa-3x text-red-500 animate-pulse"></i>
+            </div>
+            <div>
+                <i class="fas fa-cloud fa-5x text-green-500 mb-4"></i>
+                <p class="text-center text-gray-600">云团</p>
+            </div>
+        </div>
+        <p class="text-xl text-gray-700 mt-8">工程熵增与概率抽样, 确定性代码封装黑盒</p>
+    </div>
+</div>
+
+<div class="ppt-page-wrapper" style="width: 1280px; height: 720px; overflow: hidden; position: relative;">
+    <!-- Header -->
+    <div class="absolute top-0 left-0 w-full h-12 bg-blue-500 text-white flex items-center justify-between px-6 z-10">
+        <div class="font-bold">Agent 生产之殇：如何将 LLM 的不确定性关进工程沙盒</div>
+        <div></div>
+    </div>
+    <!-- Footer -->
+    <div class="absolute bottom-0 left-0 w-full h-10 bg-blue-500 text-white flex items-center justify-end px-6 z-10">
+        <div>3 / 10</div>
+    </div>
+    <!-- Content -->
+    <div class="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center bg-white">
+        <h2 class="text-4xl font-bold text-gray-800 mb-8">诊断：拒绝 LLM 函数化思维</h2>
+        <div class="flex items-center justify-around w-full px-20">
+            <div>
+                <p class="text-center text-gray-600">f(x) = y</p>
+                <i class="fas fa-equals fa-2x text-blue-500 mb-4"></i>
+            </div>
+            <div>
+                <i class="fas fa-arrow-right fa-3x text-red-500"></i>
+            </div>
+            <div>
+                <i class="fas fa-cloud fa-5x text-green-500 mb-4"></i>
+                <p class="text-center text-gray-600">多重阴影输出</p>
+
+            </div>
+        </div>
+        <p class="text-xl text-gray-700 mt-8">Prompt 微调的连锁反应；输出分布的不稳定性</p>
+         <i class="fas fa-exclamation-triangle fa-4x text-yellow-500 absolute top-20 right-20 animate-bounce"></i>
+    </div>
+</div>
+
+<div class="ppt-page-wrapper" style="width: 1280px; height: 720px; overflow: hidden; position: relative;">
+    <!-- Header -->
+    <div class="absolute top-0 left-0 w-full h-12 bg-blue-500 text-white flex items-center justify-between px-6 z-10">
+        <div class="font-bold">Agent 生产之殇：如何将 LLM 的不确定性关进工程沙盒</div>
+        <div></div>
+    </div>
+    <!-- Footer -->
+    <div class="absolute bottom-0 left-0 w-full h-10 bg-blue-500 text-white flex items-center justify-end px-6 z-10">
+        <div>4 / 10</div>
+    </div>
+    <!-- Content -->
+    <div class="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center bg-white">
+        <h2 class="text-4xl font-bold text-gray-800 mb-8">警惕实验室幻觉</h2>
+        <div class="flex items-center justify-around w-full px-20">
+            <div class="text-center">
+                <i class="fas fa-flask fa-5x text-blue-500 mb-4"></i>
+                <p class="text-gray-600">短文本精准反应</p>
+            </div>
+            <div>
+               <i class="fas fa-exchange-alt fa-3x text-gray-400"></i>
+            </div>
+            <div class="text-center">
+                <i class="fas fa-robot fa-5x text-red-500 mb-4"></i>
+                <p class="text-gray-600">长上下文眼神涣散</p>
+            </div>
+        </div>
+        <p class="text-xl text-gray-700 mt-8">长 Context 稀释注意力，指令遗忘与自由发挥</p>
+    </div>
+</div>
+
+<div class="ppt-page-wrapper" style="width: 1280px; height: 720px; overflow: hidden; position: relative;">
+    <!-- Header -->
+    <div class="absolute top-0 left-0 w-full h-12 bg-blue-500 text-white flex items-center justify-between px-6 z-10">
+        <div class="font-bold">Agent 生产之殇：如何将 LLM 的不确定性关进工程沙盒</div>
+        <div></div>
+    </div>
+    <!-- Footer -->
+    <div class="absolute bottom-0 left-0 w-full h-10 bg-blue-500 text-white flex items-center justify-end px-6 z-10">
+        <div>5 / 10</div>
+    </div>
+    <!-- Content -->
+    <div class="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center bg-white">
+        <h2 class="text-4xl font-bold text-gray-800 mb-8">多 Agent 是错误放大器</h2>
+        <div class="flex items-center justify-around w-full px-20">
+
+            <i class="fas fa-user fa-3x text-blue-500"></i>
+            <i class="fas fa-arrow-right fa-2x text-gray-400"></i>
+            <i class="fas fa-user fa-3x text-blue-500"></i>
+            <i class="fas fa-arrow-right fa-2x text-gray-400"></i>
+            <i class="fas fa-user fa-3x text-blue-500"></i>
+
+           <i class="fas fa-globe fa-5x text-red-500 ml-8"></i>
+        </div>
+        <p class="text-xl text-gray-700 mt-8">偏差级数级放大, 自信的错误闭环</p>
+        <span class="text-red-500">错误的自信!</span>
+    </div>
+</div>
+
+<div class="ppt-page-wrapper" style="width: 1280px; height: 720px; overflow: hidden; position: relative;">
+    <!-- Header -->
+    <div class="absolute top-0 left-0 w-full h-12 bg-blue-500 text-white flex items-center justify-between px-6 z-10">
+        <div class="font-bold">Agent 生产之殇：如何将 LLM 的不确定性关进工程沙盒</div>
+        <div></div>
+    </div>
+    <!-- Footer -->
+    <div class="absolute bottom-0 left-0 w-full h-10 bg-blue-500 text-white flex items-center justify-end px-6 z-10">
+        <div>6 / 10</div>
+    </div>
+    <!-- Content -->
+    <div class="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center bg-white">
+        <h2 class="text-4xl font-bold text-gray-800 mb-8">控制流的致命直接连接</h2>
+
+          <i class="fas fa-database fa-5x text-red-500"></i>
+
+        <p class="text-xl text-gray-700 mt-8">LLM三无特征：无幂等、无边界、无Trace, 不可逆操作灾难</p>
+         <span class="text-red-500">禁止直接驱动敏感业务流!</span>
+    </div>
+</div>
+
+<div class="ppt-page-wrapper" style="width: 1280px; height: 720px; overflow: hidden; position: relative;">
+    <!-- Header -->
+    <div class="absolute top-0 left-0 w-full h-12 bg-blue-500 text-white flex items-center justify-between px-6 z-10">
+        <div class="font-bold">Agent 生产之殇：如何将 LLM 的不确定性关进工程沙盒</div>
+        <div></div>
+    </div>
+    <!-- Footer -->
+    <div class="absolute bottom-0 left-0 w-full h-10 bg-blue-500 text-white flex items-center justify-end px-6 z-10">
+        <div>7 / 10</div>
+    </div>
+    <!-- Content -->
+    <div class="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center bg-white">
+        <h2 class="text-4xl font-bold text-gray-800 mb-8">法则一：收回决策终审权</h2>
+
+        <i class="fas fa-gavel fa-5x text-blue-500"></i>
+        <p class="text-xl text-gray-700 mt-8">角色降级：建议者而非决策官, 逻辑硬编码固化</p>
+         <span class="text-blue-500">关键逻辑锁进密码保险箱!</span>
+    </div>
+</div>
+
+<div class="ppt-page-wrapper" style="width: 1280px; height: 720px; overflow: hidden; position: relative;">
+    <!-- Header -->
+    <div class="absolute top-0 left-0 w-full h-12 bg-blue-500 text-white flex items-center justify-between px-6 z-10">
+        <div class="font-bold">Agent 生产之殇：如何将 LLM 的不确定性关进工程沙盒</div>
+        <div></div>
+    </div>
+    <!-- Footer -->
+    <div class="absolute bottom-0 left-0 w-full h-10 bg-blue-500 text-white flex items-center justify-end px-6 z-10">
+        <div>8 / 10</div>
+    </div>
+    <!-- Content -->
+    <div class="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center bg-white">
+        <h2 class="text-4xl font-bold text-gray-800 mb-8">法则二：构建外部状态机</h2>
+        <i class="fas fa-server fa-5x text-green-500"></i>
+
+        <p class="text-xl text-gray-700 mt-8">Context Window 不可靠性；强制状态共识</p>
+         <span class="text-green-500">模型查看系统快照而非聊天记录!</span>
+
+    </div>
+</div>
+
+<div class="ppt-page-wrapper" style="width: 1280px; height: 720px; overflow: hidden; position: relative;">
+    <!-- Header -->
+    <div class="absolute top-0 left-0 w-full h-12 bg-blue-500 text-white flex items-center justify-between px-6 z-10">
+        <div class="font-bold">Agent 生产之殇：如何将 LLM 的不确定性关进工程沙盒</div>
+        <div></div>
+    </div>
+    <!-- Footer -->
+    <div class="absolute bottom-0 left-0 w-full h-10 bg-blue-500 text-white flex items-center justify-end px-6 z-10">
+        <div>9 / 10</div>
+    </div>
+    <!-- Content -->
+    <div class="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center bg-white">
+        <h2 class="text-4xl font-bold text-gray-800 mb-8">法则三：设计熔断与降级</h2>
+        <i class="fas fa-shield-alt fa-5x text-yellow-500"></i>
+        <p class="text-xl text-gray-700 mt-8">构建三道防线护栏, 防止幻觉级联爆炸</p>
+         <span class="text-yellow-500">输出端口的过滤网（Guardrails）!</span>
+    </div>
+</div>
+
+<div class="ppt-page-wrapper" style="width: 1280px; height: 720px; overflow: hidden; position: relative;">
+    <!-- Header -->
+    <div class="absolute top-0 left-0 w-full h-12 bg-blue-500 text-white flex items-center justify-between px-6 z-10">
+        <div class="font-bold">Agent 生产之殇：如何将 LLM 的不确定性关进工程沙盒</div>
+        <div></div>
+    </div>
+    <!-- Footer -->
+    <div class="absolute bottom-0 left-0 w-full h-10 bg-blue-500 text-white flex items-center justify-end px-6 z-10">
+        <div>10 / 10</div>
+    </div>
+    <!-- Content -->
+      <div class="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center" style="background: linear-gradient(to right, #4285F4, #34A853);">
+        <h1 class="text-4xl font-bold text-white mb-4">总结：工程规范压缩不确定性</h1>
+         <i class="fas fa-cogs fa-5x text-blue-200 animate-spin"></i>
+        <p class="text-2xl text-white">确定性 > 聪明度</p>
+         <span class="text-white">最好的 Agent 是守规矩的</span>
+
+    </div>
+</div>
+
+</body>
+</html>

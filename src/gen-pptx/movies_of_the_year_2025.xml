@@ -1,0 +1,510 @@
+<presentation width="960" height="540">
+<title>movies_of_the_year_2025</title>
+<slide id="9mIlDVfSZ4cLhhuqz3eLm3lmKLv">
+<style><fill><fillColor color="rgba(28, 32, 36, 1)"/></fill></style>
+<data><shape type="rect" topLeftX="0" topLeftY="0" width="960" height="540">
+  <fill><fillColor color="rgba(28, 32, 36, 1)"/></fill>
+</shape>
+<shape type="rect" topLeftX="50" topLeftY="50" width="860" height="440">
+  <border color="rgba(255, 186, 24, 0.3)" width="2"/>
+</shape>
+<shape type="text" topLeftX="80" topLeftY="180" width="800" height="200">
+  <content textAlign="left" verticalAlign="middle">
+    <p><span fontFamily="Bebas Neue" fontSize="120" color="rgba(255, 186, 24, 1)" letterSpacing="5">MOVIES</span></p>
+    <p><span fontFamily="Bebas Neue" fontSize="120" color="rgba(255, 255, 255, 1)" letterSpacing="5">OF THE YEAR</span></p>
+    <p align="right"><span fontFamily="Bebas Neue" fontSize="80" color="rgba(116, 218, 248, 1)" letterSpacing="5">2025</span></p>
+  </content>
+</shape>
+<shape type="text" topLeftX="80" topLeftY="450" width="800" height="60">
+  <content textAlign="left" verticalAlign="top">
+    <p><span fontFamily="Montserrat" fontSize="18" color="rgba(232, 232, 232, 1)" letterSpacing="2">PRESENTED BY ANYGEN &amp; XUAN MIFIND</span></p>
+  </content>
+</shape>
+<line startX="80" startY="430" endX="880" endY="430">
+  <border color="rgba(255, 186, 24, 1)" width="4"/>
+</line></data>
+<note><content><p>Welcome to the cinematic review of 2025. This presentation brings together the year's most visually striking and culturally significant films, curated by AnyGen and Xuan Mifind. We'll explore everything from box office giants to hidden indie gems.</p></content></note>
+</slide>
+<slide id="SrxXE4FjTt1KSsi1pOffjhPDGy6">
+<style><fill><fillColor color="rgba(28, 32, 36, 1)"/></fill></style>
+<data><shape type="text" topLeftX="60" topLeftY="40" width="840" height="80">
+  <content textAlign="left" verticalAlign="middle">
+    <p><span fontFamily="Bebas Neue" fontSize="60" color="rgba(255, 186, 24, 1)">WHAT’S INSIDE</span></p>
+  </content>
+</shape>
+<shape type="text" topLeftX="60" topLeftY="110" width="840" height="40">
+  <content textAlign="left" verticalAlign="top">
+    <p><span fontFamily="Montserrat" fontSize="16" color="rgba(232, 232, 232, 1)">A curated journey through the cinematic landscape of 2025</span></p>
+  </content>
+</shape>
+
+<!-- Item 1 -->
+<shape type="round-rect" presetHandlers="4" topLeftX="60" topLeftY="160" width="200" height="280">
+  <fill><fillColor color="rgba(96, 100, 108, 1)"/></fill>
+</shape>
+<shape type="text" topLeftX="80" topLeftY="180" width="160" height="240">
+  <content textAlign="left" verticalAlign="top">
+    <p><span fontFamily="Bebas Neue" fontSize="80" color="rgba(255, 186, 24, 0.2)">01</span></p>
+    <p><span fontFamily="Abril Fatface" fontSize="28" color="rgba(255, 186, 24, 1)">Biggest<br/>Hits</span></p>
+    <br/>
+    <p><span fontFamily="Montserrat" fontSize="14" color="rgba(232, 232, 232, 1)">The year's mass-appeal juggernauts and box office leaders.</span></p>
+  </content>
+</shape>
+
+<!-- Item 2 -->
+<shape type="round-rect" presetHandlers="4" topLeftX="280" topLeftY="160" width="200" height="280">
+  <fill><fillColor color="rgba(96, 100, 108, 1)"/></fill>
+</shape>
+<shape type="text" topLeftX="300" topLeftY="180" width="160" height="240">
+  <content textAlign="left" verticalAlign="top">
+    <p><span fontFamily="Bebas Neue" fontSize="80" color="rgba(101, 77, 196, 0.2)">02</span></p>
+    <p><span fontFamily="Abril Fatface" fontSize="28" color="rgba(101, 77, 196, 1)">Critics’<br/>Favorites</span></p>
+    <br/>
+    <p><span fontFamily="Montserrat" fontSize="14" color="rgba(232, 232, 232, 1)">Festival darlings and the top-reviewed cinema of the year.</span></p>
+  </content>
+</shape>
+
+<!-- Item 3 -->
+<shape type="round-rect" presetHandlers="4" topLeftX="500" topLeftY="160" width="200" height="280">
+  <fill><fillColor color="rgba(96, 100, 108, 1)"/></fill>
+</shape>
+<shape type="text" topLeftX="520" topLeftY="180" width="160" height="240">
+  <content textAlign="left" verticalAlign="top">
+    <p><span fontFamily="Bebas Neue" fontSize="80" color="rgba(223, 52, 120, 0.2)">03</span></p>
+    <p><span fontFamily="Abril Fatface" fontSize="28" color="rgba(223, 52, 120, 1)">Most<br/>Talked</span></p>
+    <br/>
+    <p><span fontFamily="Montserrat" fontSize="14" color="rgba(232, 232, 232, 1)">Culture-conversation drivers and viral buzz magnets.</span></p>
+  </content>
+</shape>
+
+<!-- Item 4 -->
+<shape type="round-rect" presetHandlers="4" topLeftX="720" topLeftY="160" width="180" height="280">
+  <fill><fillColor color="rgba(96, 100, 108, 1)"/></fill>
+</shape>
+<shape type="text" topLeftX="740" topLeftY="180" width="140" height="240">
+  <content textAlign="left" verticalAlign="top">
+    <p><span fontFamily="Bebas Neue" fontSize="80" color="rgba(116, 218, 248, 0.2)">04</span></p>
+    <p><span fontFamily="Abril Fatface" fontSize="28" color="rgba(116, 218, 248, 1)">Hidden<br/>Gems</span></p>
+    <br/>
+    <p><span fontFamily="Montserrat" fontSize="14" color="rgba(232, 232, 232, 1)">Quieter standouts inviting discovery.</span></p>
+  </content>
+</shape></data>
+<note><content><p>Our agenda today moves from the biggest blockbusters to critical darlings, then to the films that dominated the conversation, and finally, the hidden gems you might have missed. It's a journey through the full spectrum of 2025's cinema.</p></content></note>
+</slide>
+<slide id="A0IMXbhaykh7ZjClyGFB5VgN6qV">
+<style><fill><fillColor color="rgba(255, 186, 24, 1)"/></fill></style>
+<data><shape type="rect" topLeftX="0" topLeftY="0" width="960" height="540">
+  <fill><fillColor color="rgba(255, 186, 24, 1)"/></fill>
+</shape>
+<shape type="text" topLeftX="80" topLeftY="180" width="800" height="180">
+  <content textAlign="center" verticalAlign="middle">
+    <p><span fontFamily="Bebas Neue" fontSize="120" color="rgba(28, 32, 36, 1)">BIGGEST HITS</span></p>
+  </content>
+</shape>
+<line startX="280" startY="320" endX="680" endY="320">
+  <border color="rgba(28, 32, 36, 1)" width="4"/>
+</line>
+<shape type="text" topLeftX="180" topLeftY="350" width="600" height="100">
+  <content textAlign="center" verticalAlign="top">
+    <p><span fontFamily="Montserrat" fontSize="24" color="rgba(28, 32, 36, 1)" italic="true">With the stage set, we open on the year’s mass-appeal juggernauts.</span></p>
+  </content>
+</shape></data>
+<note><content><p>Let's start with the heavy hitters. These are the films that defined the box office and captured the mass audience's imagination this year.</p></content></note>
+</slide>
+<slide id="WczJqaVOxg4bf7uZ7sLkCQzJ75G">
+<style><fill><fillColor color="rgba(28, 32, 36, 1)"/></fill></style>
+<data><!-- Left Card: Zootopia 2 -->
+<shape type="rect" topLeftX="40" topLeftY="40" width="420" height="460">
+  <fill><fillColor color="rgba(96, 100, 108, 0.3)"/></fill>
+</shape>
+<img src="/home/user/workspace/resources/images/image_w3000_h1256_Box_Office__'Zootopi.jpeg" topLeftX="40" topLeftY="40" width="420" height="200">
+  <crop type="rect"/>
+</img>
+<shape type="text" topLeftX="60" topLeftY="250" width="380" height="230">
+  <content textAlign="left" verticalAlign="top">
+    <p><span fontFamily="Abril Fatface" fontSize="24" color="rgba(255, 186, 24, 1)">Zootopia 2</span></p>
+    <p><span fontFamily="Open Sans" fontSize="12" color="rgba(217, 217, 217, 1)">Directors: Jared Bush, Byron Howard</span></p>
+    <br/>
+    <p><span fontFamily="Montserrat" fontSize="14" color="rgba(232, 232, 232, 1)">Headlining the year's family-friendly wave. Rekindled the charm with a sharper social pulse; ubiquitous merch and memes.</span></p>
+    <br/>
+    <p><span fontFamily="Open Sans" fontSize="12" color="rgba(116, 218, 248, 1)" italic="true">Iconic Scene: Judy and Nick undercover in neon-lit precinct chaos.</span></p>
+  </content>
+</shape>
+<shape type="round-rect" presetHandlers="4" topLeftX="300" topLeftY="250" width="140" height="24">
+  <fill><fillColor color="rgba(101, 77, 196, 1)"/></fill>
+  <content textAlign="center" verticalAlign="middle"><p><span fontFamily="Open Sans" fontSize="10" color="white" bold="true">Animation/Adventure</span></p></content>
+</shape>
+
+<!-- Right Card: A Minecraft Movie -->
+<shape type="rect" topLeftX="500" topLeftY="40" width="420" height="460">
+  <fill><fillColor color="rgba(96, 100, 108, 0.3)"/></fill>
+</shape>
+<img src="/home/user/workspace/resources/images/image_w1200_h675_A_Minecraft_Movie__F.jpeg" topLeftX="500" topLeftY="40" width="420" height="200">
+  <crop type="rect"/>
+</img>
+<shape type="text" topLeftX="520" topLeftY="250" width="380" height="230">
+  <content textAlign="left" verticalAlign="top">
+    <p><span fontFamily="Abril Fatface" fontSize="24" color="rgba(255, 186, 24, 1)">A Minecraft Movie</span></p>
+    <p><span fontFamily="Open Sans" fontSize="12" color="rgba(217, 217, 217, 1)">Director: Jared Hess</span></p>
+    <br/>
+    <p><span fontFamily="Montserrat" fontSize="14" color="rgba(232, 232, 232, 1)">Game-to-film done playful and self-aware; kids and nostalgia audiences synced.</span></p>
+    <br/>
+    <p><span fontFamily="Open Sans" fontSize="12" color="rgba(116, 218, 248, 1)" italic="true">Iconic Scene: Overworld chase across collapsing voxel bridges.</span></p>
+  </content>
+</shape>
+<shape type="round-rect" presetHandlers="4" topLeftX="760" topLeftY="250" width="140" height="24">
+  <fill><fillColor color="rgba(223, 52, 120, 1)"/></fill>
+  <content textAlign="center" verticalAlign="middle"><p><span fontFamily="Open Sans" fontSize="10" color="white" bold="true">Adventure/Family</span></p></content>
+</shape></data>
+<note><content><p>First up, two massive hits for families. Zootopia 2 returned with a sharper social pulse, giving us that neon-lit undercover chaos we love. Meanwhile, A Minecraft Movie surprised everyone by nailing the self-aware tone, syncing perfectly with both kids and nostalgic gamers.</p></content></note>
+</slide>
+<slide id="1hs74guyrk9ulcRrcp6ldHT3CvR">
+<style><fill><fillColor color="rgba(28, 32, 36, 1)"/></fill></style>
+<data><!-- Column 1: Jurassic World -->
+<shape type="rect" topLeftX="40" topLeftY="40" width="420" height="460">
+  <fill><fillColor color="rgba(96, 100, 108, 0.3)"/></fill>
+</shape>
+<img src="/home/user/workspace/resources/images/image_w2560_h1073_Jurassic_World_Rebir.jpeg" topLeftX="40" topLeftY="40" width="420" height="180">
+  <crop type="rect"/>
+</img>
+<shape type="text" topLeftX="60" topLeftY="240" width="380" height="240">
+  <content textAlign="left" verticalAlign="top">
+    <p><span fontFamily="Abril Fatface" fontSize="24" color="rgba(255, 186, 24, 1)">Jurassic World: Rebirth</span></p>
+    <p><span fontFamily="Open Sans" fontSize="12" color="rgba(217, 217, 217, 1)">Director: Gareth Edwards</span></p>
+    <br/>
+    <p><span fontFamily="Montserrat" fontSize="14" color="rgba(232, 232, 232, 1)">A grounded, tactile turn that revived dinosaur spectacle for a new era.</span></p>
+    <br/>
+    <p><span fontFamily="Open Sans" fontSize="12" color="rgba(116, 218, 248, 1)" italic="true">Iconic Scene: Rain-soaked valley stampede seen from a cliffside lookout.</span></p>
+  </content>
+</shape>
+<shape type="round-rect" presetHandlers="4" topLeftX="340" topLeftY="240" width="100" height="24">
+  <fill><fillColor color="rgba(101, 77, 196, 1)"/></fill>
+  <content textAlign="center" verticalAlign="middle"><p><span fontFamily="Open Sans" fontSize="10" color="white" bold="true">Sci-Fi/Action</span></p></content>
+</shape>
+
+<!-- Column 2: Superman -->
+<shape type="rect" topLeftX="500" topLeftY="40" width="420" height="460">
+  <fill><fillColor color="rgba(96, 100, 108, 0.3)"/></fill>
+</shape>
+<!-- Using poster as requested, fitted to contain -->
+<img src="/home/user/workspace/resources/images/image_w1379_h2000_SUPERMAN_2025___Post.jpeg" topLeftX="560" topLeftY="40" width="300" height="220">
+  <crop type="rect"/>
+</img>
+<shape type="text" topLeftX="520" topLeftY="270" width="380" height="210">
+  <content textAlign="left" verticalAlign="top">
+    <p><span fontFamily="Abril Fatface" fontSize="24" color="rgba(255, 186, 24, 1)">Superman</span></p>
+    <p><span fontFamily="Open Sans" fontSize="12" color="rgba(217, 217, 217, 1)">Director: James Gunn</span></p>
+    <br/>
+    <p><span fontFamily="Montserrat" fontSize="14" color="rgba(232, 232, 232, 1)">Bright, classical heroism reintroduced with modern warmth; cultural conversation reset.</span></p>
+    <br/>
+    <p><span fontFamily="Open Sans" fontSize="12" color="rgba(116, 218, 248, 1)" italic="true">Iconic Scene: Daily Planet rooftop dawn resolve, cape catching first light.</span></p>
+  </content>
+</shape>
+<shape type="round-rect" presetHandlers="4" topLeftX="800" topLeftY="270" width="120" height="24">
+  <fill><fillColor color="rgba(223, 52, 120, 1)"/></fill>
+  <content textAlign="center" verticalAlign="middle"><p><span fontFamily="Open Sans" fontSize="10" color="white" bold="true">Superhero/Drama</span></p></content>
+</shape></data>
+<note><content><p>Continuing with franchise reinventions. Jurassic World: Rebirth brought a grounded, tactile feel back to the series. James Gunn's Superman, meanwhile, reset the cultural conversation by embracing bright, classical heroism with modern warmth.</p></content></note>
+</slide>
+<slide id="3X8CQhiVSFINp9xqC8SPMFqMa69">
+<style><fill><fillColor color="rgba(101, 77, 196, 1)"/></fill></style>
+<data><shape type="rect" topLeftX="0" topLeftY="0" width="960" height="540">
+  <fill><fillColor color="rgba(101, 77, 196, 1)"/></fill>
+</shape>
+<shape type="text" topLeftX="80" topLeftY="180" width="800" height="180">
+  <content textAlign="center" verticalAlign="middle">
+    <p><span fontFamily="Bebas Neue" fontSize="120" color="rgba(255, 255, 255, 1)">CRITICS’ FAVORITES</span></p>
+  </content>
+</shape>
+<line startX="280" startY="320" endX="680" endY="320">
+  <border color="rgba(255, 255, 255, 1)" width="4"/>
+</line>
+<shape type="text" topLeftX="180" topLeftY="350" width="600" height="100">
+  <content textAlign="center" verticalAlign="top">
+    <p><span fontFamily="Montserrat" fontSize="24" color="rgba(255, 255, 255, 1)" italic="true">From crowd-pleasers to the year’s critical lodestars.</span></p>
+  </content>
+</shape></data>
+<note><content><p>Now we shift gears from the box office giants to the films that won the hearts of critics. These are the artistic triumphs of the year.</p></content></note>
+</slide>
+<slide id="VLtctTvPJzBEndzfqfIUFquBUox">
+<style><fill><fillColor color="rgba(28, 32, 36, 1)"/></fill></style>
+<data><!-- Left: One Battle After Another -->
+<shape type="rect" topLeftX="40" topLeftY="40" width="420" height="460">
+  <fill><fillColor color="rgba(96, 100, 108, 0.3)"/></fill>
+</shape>
+<img src="/home/user/workspace/resources/images/image_w1638_h2048_One_Battle_After_Ano.jpeg" topLeftX="125" topLeftY="40" width="250" height="280">
+  <crop type="rect"/>
+</img>
+<shape type="text" topLeftX="60" topLeftY="330" width="380" height="150">
+  <content textAlign="left" verticalAlign="top">
+    <p><span fontFamily="Abril Fatface" fontSize="24" color="rgba(101, 77, 196, 1)">One Battle After Another</span></p>
+    <p><span fontFamily="Open Sans" fontSize="12" color="rgba(217, 217, 217, 1)">Director: Paul Thomas Anderson</span></p>
+    <br/>
+    <p><span fontFamily="Montserrat" fontSize="14" color="rgba(232, 232, 232, 1)">Maximalist filmmaking with screwball momentum; critics’ poll dominator.</span></p>
+    <br/>
+    <p><span fontFamily="Open Sans" fontSize="12" color="rgba(116, 218, 248, 1)" italic="true">Iconic Scene: Spiraling crane shot through a warehouse melee.</span></p>
+  </content>
+</shape>
+<shape type="round-rect" presetHandlers="4" topLeftX="60" topLeftY="480" width="140" height="24">
+  <fill><fillColor color="rgba(255, 186, 24, 1)"/></fill>
+  <content textAlign="center" verticalAlign="middle"><p><span fontFamily="Open Sans" fontSize="10" color="rgba(28, 32, 36, 1)" bold="true">Action/Black Comedy</span></p></content>
+</shape>
+
+<!-- Right: Sinners -->
+<shape type="rect" topLeftX="500" topLeftY="40" width="420" height="460">
+  <fill><fillColor color="rgba(96, 100, 108, 0.3)"/></fill>
+</shape>
+<img src="/home/user/workspace/resources/images/image_w2000_h1067_Sinners'_Is_Now_Avai.jpeg" topLeftX="500" topLeftY="40" width="420" height="220">
+  <crop type="rect"/>
+</img>
+<shape type="text" topLeftX="520" topLeftY="270" width="380" height="150">
+  <content textAlign="left" verticalAlign="top">
+    <p><span fontFamily="Abril Fatface" fontSize="24" color="rgba(101, 77, 196, 1)">Sinners</span></p>
+    <p><span fontFamily="Open Sans" fontSize="12" color="rgba(217, 217, 217, 1)">Director: Ryan Coogler</span></p>
+    <br/>
+    <p><span fontFamily="Montserrat" fontSize="14" color="rgba(232, 232, 232, 1)">Genre reinvention with soulful urgency; awards chatter ignited early.</span></p>
+    <br/>
+    <p><span fontFamily="Open Sans" fontSize="12" color="rgba(116, 218, 248, 1)" italic="true">Iconic Scene: Lantern-lit riverbank confrontation where silence is the loudest sound.</span></p>
+  </content>
+</shape>
+<shape type="round-rect" presetHandlers="4" topLeftX="520" topLeftY="440" width="140" height="24">
+  <fill><fillColor color="rgba(223, 52, 120, 1)"/></fill>
+  <content textAlign="center" verticalAlign="middle"><p><span fontFamily="Open Sans" fontSize="10" color="white" bold="true">Period Horror/Thriller</span></p></content>
+</shape></data>
+<note><content><p>Paul Thomas Anderson delivered maximalist chaos with 'One Battle After Another', a true critics' darling. Ryan Coogler's 'Sinners' reinvented period horror with soulful urgency, featuring unforgettable lantern-lit visuals.</p></content></note>
+</slide>
+<slide id="KJ1Q93fGCeH06AbPb5Sd4CYpuql">
+<style><fill><fillColor color="rgba(28, 32, 36, 1)"/></fill></style>
+<data><!-- Image Section -->
+<img src="/home/user/workspace/resources/images/image_w2356_h1430_Marty_Supreme_Traile.png" topLeftX="0" topLeftY="0" width="960" height="360">
+  <crop type="rect"/>
+</img>
+<!-- Overlay Gradient for text readability if needed, but using distinct section below -->
+<shape type="rect" topLeftX="0" topLeftY="360" width="960" height="180">
+  <fill><fillColor color="rgba(28, 32, 36, 1)"/></fill>
+</shape>
+<!-- Accent Line -->
+<line startX="0" startY="360" endX="960" endY="360">
+  <border color="rgba(101, 77, 196, 1)" width="6"/>
+</line>
+
+<!-- Content -->
+<shape type="text" topLeftX="60" topLeftY="390" width="300" height="120">
+  <content textAlign="left" verticalAlign="top">
+    <p><span fontFamily="Abril Fatface" fontSize="42" color="rgba(255, 186, 24, 1)">Marty Supreme</span></p>
+    <p><span fontFamily="Open Sans" fontSize="18" color="rgba(217, 217, 217, 1)">Director: Josh Safdie</span></p>
+  </content>
+</shape>
+
+<shape type="text" topLeftX="400" topLeftY="390" width="500" height="120">
+  <content textAlign="left" verticalAlign="top">
+    <p><span fontFamily="Montserrat" fontSize="16" color="rgba(232, 232, 232, 1)">Kinetic, character-first comeback story; a festival favorite turned meme magnet.</span></p>
+    <br/>
+    <p><span fontFamily="Open Sans" fontSize="14" color="rgba(116, 218, 248, 1)" italic="true">Iconic Scene: Locker-room pep talk shot in a single nervy take.</span></p>
+  </content>
+</shape>
+
+<shape type="round-rect" presetHandlers="4" topLeftX="300" topLeftY="395" width="20" height="20">
+   <fill><fillColor color="rgba(223, 52, 120, 1)"/></fill>
+   <!-- Decorative dot -->
+</shape>
+<shape type="round-rect" presetHandlers="4" topLeftX="60" topLeftY="480" width="160" height="30">
+  <fill><fillColor color="rgba(96, 100, 108, 1)"/></fill>
+  <content textAlign="center" verticalAlign="middle"><p><span fontFamily="Open Sans" fontSize="12" color="white" bold="true">Sports/Comedy-Drama</span></p></content>
+</shape></data>
+<note><content><p>Josh Safdie's 'Marty Supreme' combines auteur craft with star power. It's a kinetic, character-first comeback story that became both a festival favorite and a viral sensation.</p></content></note>
+</slide>
+<slide id="O7YLVuyahfj5X1q04ZfToh8Q9hV">
+<style><fill><fillColor color="rgba(223, 52, 120, 1)"/></fill></style>
+<data><shape type="rect" topLeftX="0" topLeftY="0" width="960" height="540">
+  <fill><fillColor color="rgba(223, 52, 120, 1)"/></fill>
+</shape>
+<shape type="text" topLeftX="80" topLeftY="180" width="800" height="180">
+  <content textAlign="center" verticalAlign="middle">
+    <p><span fontFamily="Bebas Neue" fontSize="120" color="rgba(255, 255, 255, 1)">MOST TALKED-ABOUT</span></p>
+  </content>
+</shape>
+<line startX="280" startY="320" endX="680" endY="320">
+  <border color="rgba(255, 255, 255, 1)" width="4"/>
+</line>
+<shape type="text" topLeftX="180" topLeftY="350" width="600" height="100">
+  <content textAlign="center" verticalAlign="top">
+    <p><span fontFamily="Montserrat" fontSize="24" color="rgba(255, 255, 255, 1)" italic="true">Now, the films everyone had an opinion about.</span></p>
+  </content>
+</shape></data>
+<note><content><p>Moving on to the cultural phenomenons. These are the movies that dominated social media feeds and dinner table conversations. Love them or hate them, everyone was talking about them.</p></content></note>
+</slide>
+<slide id="gUNDkKL91DjsIozsOm6XTmAQ5be">
+<style><fill><fillColor color="rgba(28, 32, 36, 1)"/></fill></style>
+<data><!-- Left: Frankenstein -->
+<shape type="rect" topLeftX="40" topLeftY="40" width="420" height="460">
+  <fill><fillColor color="rgba(96, 100, 108, 0.3)"/></fill>
+</shape>
+<img src="/home/user/workspace/resources/images/image_w1012_h1500_Frankenstein_(2025)_.jpeg" topLeftX="130" topLeftY="40" width="240" height="360">
+  <crop type="rect"/>
+</img>
+<shape type="text" topLeftX="60" topLeftY="410" width="380" height="80">
+  <content textAlign="left" verticalAlign="top">
+    <p><span fontFamily="Abril Fatface" fontSize="24" color="rgba(255, 186, 24, 1)">Frankenstein</span></p>
+    <p><span fontFamily="Montserrat" fontSize="14" color="rgba(232, 232, 232, 1)">Lush, empathetic reimagining; craft and casting dominated discourse.</span></p>
+  </content>
+</shape>
+<!-- Floating tag -->
+<shape type="round-rect" presetHandlers="4" topLeftX="300" topLeftY="50" width="120" height="24">
+  <fill><fillColor color="rgba(223, 52, 120, 1)"/></fill>
+  <content textAlign="center" verticalAlign="middle"><p><span fontFamily="Open Sans" fontSize="10" color="white" bold="true">Gothic Horror</span></p></content>
+</shape>
+
+
+<!-- Right: Weapons -->
+<shape type="rect" topLeftX="500" topLeftY="40" width="420" height="460">
+  <fill><fillColor color="rgba(96, 100, 108, 0.3)"/></fill>
+</shape>
+<img src="/home/user/workspace/resources/images/image_w1985_h2978_Weapons_(2025)_-_Pos.jpeg" topLeftX="590" topLeftY="40" width="240" height="360">
+  <crop type="rect"/>
+</img>
+<shape type="text" topLeftX="520" topLeftY="410" width="380" height="80">
+  <content textAlign="left" verticalAlign="top">
+    <p><span fontFamily="Abril Fatface" fontSize="24" color="rgba(255, 186, 24, 1)">Weapons</span></p>
+    <p><span fontFamily="Montserrat" fontSize="14" color="rgba(232, 232, 232, 1)">Twisty structure and audacious tone; think-pieces everywhere.</span></p>
+  </content>
+</shape>
+<shape type="round-rect" presetHandlers="4" topLeftX="760" topLeftY="50" width="120" height="24">
+  <fill><fillColor color="rgba(101, 77, 196, 1)"/></fill>
+  <content textAlign="center" verticalAlign="middle"><p><span fontFamily="Open Sans" fontSize="10" color="white" bold="true">Mystery/Horror</span></p></content>
+</shape></data>
+<note><content><p>Guillermo del Toro's 'Frankenstein' gave us a lush, empathetic monster that dominated the discourse. Meanwhile, 'Weapons' kept everyone guessing with its twisty structure—spoiler etiquette was mandatory for this one.</p></content></note>
+</slide>
+<slide id="lhIOlJdwdRT7DGnX3DPxdrIOZmJ">
+<style><fill><fillColor color="rgba(116, 218, 248, 1)"/></fill></style>
+<data><shape type="rect" topLeftX="0" topLeftY="0" width="960" height="540">
+  <fill><fillColor color="rgba(116, 218, 248, 1)"/></fill>
+</shape>
+<shape type="text" topLeftX="80" topLeftY="180" width="800" height="180">
+  <content textAlign="center" verticalAlign="middle">
+    <p><span fontFamily="Bebas Neue" fontSize="120" color="rgba(28, 32, 36, 1)">HIDDEN GEMS</span></p>
+  </content>
+</shape>
+<line startX="280" startY="320" endX="680" endY="320">
+  <border color="rgba(28, 32, 36, 1)" width="4"/>
+</line>
+<shape type="text" topLeftX="180" topLeftY="350" width="600" height="100">
+  <content textAlign="center" verticalAlign="top">
+    <p><span fontFamily="Montserrat" fontSize="24" color="rgba(28, 32, 36, 1)" italic="true">Spotlighting the year’s quieter standouts.</span></p>
+  </content>
+</shape></data>
+<note><content><p>Finally, we turn our attention to the hidden gems. These films might not have had the biggest marketing budgets, but they delivered human-scale stories that resonated deeply.</p></content></note>
+</slide>
+<slide id="XMIbaH5nFaz3O5r5fh1bM0uAmb0">
+<style><fill><fillColor color="rgba(28, 32, 36, 1)"/></fill></style>
+<data><!-- Left: Bob Trevino Likes It -->
+<shape type="rect" topLeftX="40" topLeftY="40" width="420" height="460">
+  <fill><fillColor color="rgba(96, 100, 108, 0.3)"/></fill>
+</shape>
+<img src="/home/user/workspace/resources/images/image_w2025_h3000_Bob_Trevino_Likes_It.jpeg" topLeftX="125" topLeftY="40" width="250" height="300">
+  <crop type="rect"/>
+</img>
+<shape type="text" topLeftX="60" topLeftY="350" width="380" height="140">
+  <content textAlign="left" verticalAlign="top">
+    <p><span fontFamily="Abril Fatface" fontSize="24" color="rgba(116, 218, 248, 1)">Bob Trevino Likes It</span></p>
+    <p><span fontFamily="Montserrat" fontSize="14" color="rgba(232, 232, 232, 1)">Found-family tenderness that resonated beyond indie circles.</span></p>
+    <br/>
+    <p><span fontFamily="Open Sans" fontSize="12" color="rgba(255, 186, 24, 1)" italic="true">Iconic Scene: Phone-scroll epiphany framed like a confession booth.</span></p>
+  </content>
+</shape>
+
+<!-- Right: Eephus -->
+<shape type="rect" topLeftX="500" topLeftY="40" width="420" height="460">
+  <fill><fillColor color="rgba(96, 100, 108, 0.3)"/></fill>
+</shape>
+<!-- Using alternative Eephus image as original path was invalid -->
+<img src="/home/user/workspace/resources/images/image_w1024_h683_EEPHUS__Baseball's_A.webp" topLeftX="500" topLeftY="40" width="420" height="240">
+  <crop type="rect"/>
+</img>
+<shape type="text" topLeftX="520" topLeftY="300" width="380" height="190">
+  <content textAlign="left" verticalAlign="top">
+    <p><span fontFamily="Abril Fatface" fontSize="24" color="rgba(116, 218, 248, 1)">Eephus</span></p>
+    <p><span fontFamily="Montserrat" fontSize="14" color="rgba(232, 232, 232, 1)">Baseball as community elegy; patient rhythms rewarded attentive viewers.</span></p>
+    <br/>
+    <p><span fontFamily="Open Sans" fontSize="12" color="rgba(255, 186, 24, 1)" italic="true">Iconic Scene: The arc of the pitch hanging in late-afternoon haze.</span></p>
+  </content>
+</shape></data>
+<note><content><p>'Bob Trevino Likes It' offered a touching story of found family that resonated broadly. 'Eephus' gave us a community elegy wrapped in baseball, rewarding patient viewers with its beautiful rhythms.</p></content></note>
+</slide>
+<slide id="Rjv1zUY3fWDt2rbVmkwxSp40IRp">
+<style><fill><fillColor color="rgba(28, 32, 36, 1)"/></fill></style>
+<data><!-- Poster -->
+<shape type="rect" topLeftX="580" topLeftY="30" width="340" height="480">
+  <fill><fillColor color="rgba(96, 100, 108, 0.3)"/></fill>
+</shape>
+<img src="/home/user/workspace/resources/images/image_w1587_h2245_Sound_of_Falling_(20.jpeg" topLeftX="600" topLeftY="50" width="300" height="440">
+  <crop type="rect"/>
+</img>
+
+<!-- Text Content -->
+<shape type="text" topLeftX="80" topLeftY="150" width="480" height="120">
+  <content textAlign="left" verticalAlign="top">
+    <p><span fontFamily="Abril Fatface" fontSize="48" color="rgba(116, 218, 248, 1)">Sound of Falling</span></p>
+    <p><span fontFamily="Open Sans" fontSize="18" color="rgba(217, 217, 217, 1)">Director: Mascha Schilinski</span></p>
+  </content>
+</shape>
+
+<line startX="80" startY="280" endX="180" endY="280">
+  <border color="rgba(255, 186, 24, 1)" width="2"/>
+</line>
+
+<shape type="text" topLeftX="80" topLeftY="310" width="460" height="160">
+  <content textAlign="left" verticalAlign="top">
+    <p><span fontFamily="Montserrat" fontSize="16" color="rgba(232, 232, 232, 1)">Hypnotic family tapestry with time-layered textures; critic circles adored it.</span></p>
+    <br/>
+    <p><span fontFamily="Open Sans" fontSize="14" color="rgba(223, 52, 120, 1)" italic="true">Iconic Scene: Sun-flecked farmhouse corridor observed like a memory loop.</span></p>
+  </content>
+</shape>
+<shape type="round-rect" presetHandlers="4" topLeftX="80" topLeftY="100" width="140" height="24">
+  <fill><fillColor color="rgba(116, 218, 248, 0.2)"/></fill>
+  <content textAlign="center" verticalAlign="middle"><p><span fontFamily="Open Sans" fontSize="10" color="rgba(116, 218, 248, 1)" bold="true">Drama/Art-House</span></p></content>
+</shape></data>
+<note><content><p>'Sound of Falling' offered an immersive art-house experience. Mascha Schilinski's hypnotic direction created a family tapestry woven with time-layered textures that critics absolutely adored.</p></content></note>
+</slide>
+<slide id="EenR9jNbctWG5Z3rqawtrBzFvyA">
+<style><fill><fillColor color="rgba(28, 32, 36, 1)"/></fill></style>
+<data><!-- Abstract Mood Composition -->
+<!-- Amber Block -->
+<shape type="rect" topLeftX="0" topLeftY="0" width="240" height="540">
+  <fill><fillColor color="rgba(255, 186, 24, 1)"/></fill>
+</shape>
+<!-- Violet Block -->
+<shape type="rect" topLeftX="240" topLeftY="0" width="240" height="540">
+  <fill><fillColor color="rgba(101, 77, 196, 1)"/></fill>
+</shape>
+<!-- Crimson Block -->
+<shape type="rect" topLeftX="480" topLeftY="0" width="240" height="540">
+  <fill><fillColor color="rgba(223, 52, 120, 1)"/></fill>
+</shape>
+<!-- Sky Block -->
+<shape type="rect" topLeftX="720" topLeftY="0" width="240" height="540">
+  <fill><fillColor color="rgba(116, 218, 248, 1)"/></fill>
+</shape>
+
+<!-- Overlay for Text Readability -->
+<shape type="rect" topLeftX="100" topLeftY="120" width="760" height="300">
+  <fill><fillColor color="rgba(28, 32, 36, 0.9)"/></fill>
+</shape>
+
+<!-- Content -->
+<shape type="text" topLeftX="160" topLeftY="160" width="640" height="80">
+  <content textAlign="center" verticalAlign="middle">
+    <p><span fontFamily="Bebas Neue" fontSize="60" color="rgba(255, 255, 255, 1)">THE YEAR IN MOOD</span></p>
+  </content>
+</shape>
+
+<shape type="text" topLeftX="160" topLeftY="240" width="640" height="140">
+  <content textAlign="center" verticalAlign="top">
+    <p><span fontFamily="Abril Fatface" fontSize="24" color="rgba(255, 186, 24, 1)">Resilience. Reinvention. Intimacy vs Spectacle.</span></p>
+    <br/>
+    <p><span fontFamily="Montserrat" fontSize="16" color="rgba(232, 232, 232, 1)">2025 was a year of contrasts—from the neon chaos of mega-cities to the quiet haze of a baseball diamond. Cinema proved it could still surprise us, reinventing old icons and discovering new voices.</span></p>
+  </content>
+</shape></data>
+<note><content><p>2025 was a year defined by resilience and reinvention. We saw a fascinating interplay between intimacy and spectacle, proving that cinema continues to evolve and surprise us. Thank you for joining us on this review.</p></content></note>
+</slide>
+</presentation>
