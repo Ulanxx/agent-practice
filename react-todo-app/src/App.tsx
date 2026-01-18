@@ -5,38 +5,26 @@ interface Todo {
   id: number
   text: string
   completed: boolean
-  isEditing: boolean
 }
 
 function App() {
-  const [todos, setTodos] = useState<Todo[]>([])
-  const [inputText, setInputText] = useState('')
+  const [todos, setTodos] = useState<Todo[]>(() => {
+    const saved = localStorage.getItem('todos')
+    return saved ? JSON.parse(saved) : []
+  })
+  const [input, setInput] = useState('')
   const [filter, setFilter] = useState<'all' | 'active' | 'completed'>('all')
+  const [editingId, setEditingId] = useState<number | null>(null)
   const [editingText, setEditingText] = useState('')
 
-  // 从 localStorage 加载数据
-  useEffect(() => {
-    const savedTodos = localStorage.getItem('todos')
-    if (savedTodos) {
-      setTodos(JSON.parse(savedTodos))
-    }
-  }, [])
-
-  // 保存到 localStorage
   useEffect(() => {
     localStorage.setItem('todos', JSON.stringify(todos))
   }, [todos])
 
   const addTodo = () => {
-    if (inputText.trim()) {
-      const newTodo: Todo = {
-        id: Date.now(),
-        text: inputText.trim(),
-        completed: false,
-        isEditing: false
-      }
-      setTodos([...todos, newTodo])
-      setInputText('')
+    if (input.trim()) {
+      setTodos([...todos, { id: Date.now(), text: input.trim(), completed: false }])
+      setInput('')
     }
   }
 
@@ -44,35 +32,29 @@ function App() {
     setTodos(todos.filter(todo => todo.id !== id))
   }
 
-  const toggleComplete = (id: number) => {
-    setTodos(todos.map(todo =>
+  const toggleTodo = (id: number) => {
+    setTodos(todos.map(todo => 
       todo.id === id ? { ...todo, completed: !todo.completed } : todo
     ))
   }
 
-  const startEdit = (id: number) => {
-    const todo = todos.find(t => t.id === id)
-    if (todo) {
-      setEditingText(todo.text)
-      setTodos(todos.map(t =>
-        t.id === id ? { ...t, isEditing: true } : t
-      ))
-    }
+  const startEdit = (id: number, text: string) => {
+    setEditingId(id)
+    setEditingText(text)
   }
 
-  const saveEdit = (id: number) => {
-    if (editingText.trim()) {
+  const saveEdit = () => {
+    if (editingId && editingText.trim()) {
       setTodos(todos.map(todo =>
-        todo.id === id ? { ...todo, text: editingText.trim(), isEditing: false } : todo
+        todo.id === editingId ? { ...todo, text: editingText.trim() } : todo
       ))
+      setEditingId(null)
       setEditingText('')
     }
   }
 
-  const cancelEdit = (id: number) => {
-    setTodos(todos.map(todo =>
-      todo.id === id ? { ...todo, isEditing: false } : todo
-    ))
+  const cancelEdit = () => {
+    setEditingId(null)
     setEditingText('')
   }
 
@@ -91,137 +73,100 @@ function App() {
   return (
     <div className="app">
       <div className="container">
-        <h1 className="title">📝 Todo List</h1>
-
-        {/* 统计信息 */}
+        <h1>📝 Todo List</h1>
+        
         <div className="stats">
-          <div className="stat-item">
-            <span className="stat-number">{stats.total}</span>
-            <span className="stat-label">总计</span>
-          </div>
-          <div className="stat-item">
-            <span className="stat-number active">{stats.active}</span>
-            <span className="stat-label">进行中</span>
-          </div>
-          <div className="stat-item">
-            <span className="stat-number completed">{stats.completed}</span>
-            <span className="stat-label">已完成</span>
-          </div>
+          <span>总计: {stats.total}</span>
+          <span>进行中: {stats.active}</span>
+          <span>已完成: {stats.completed}</span>
         </div>
 
-        {/* 添加任务 */}
-        <div className="input-container">
+        <div className="input-group">
           <input
             type="text"
-            value={inputText}
-            onChange={(e) => setInputText(e.target.value)}
+            value={input}
+            onChange={(e) => setInput(e.target.value)}
+            onKeyDown={(e) => e.key === 'Enter' && addTodo()}
             placeholder="添加新任务..."
-            className="input"
-            onKeyPress={(e) => e.key === 'Enter' && addTodo()}
           />
-          <button onClick={addTodo} className="add-btn">
-            添加
-          </button>
+          <button onClick={addTodo} className="add-btn">添加</button>
         </div>
 
-        {/* 筛选按钮 */}
-        <div className="filter-container">
-          <button
-            className={`filter-btn ${filter === 'all' ? 'active' : ''}`}
+        <div className="filters">
+          <button 
+            className={filter === 'all' ? 'active' : ''} 
             onClick={() => setFilter('all')}
           >
             全部
           </button>
-          <button
-            className={`filter-btn ${filter === 'active' ? 'active' : ''}`}
+          <button 
+            className={filter === 'active' ? 'active' : ''} 
             onClick={() => setFilter('active')}
           >
             进行中
           </button>
-          <button
-            className={`filter-btn ${filter === 'completed' ? 'active' : ''}`}
+          <button 
+            className={filter === 'completed' ? 'active' : ''} 
             onClick={() => setFilter('completed')}
           >
             已完成
           </button>
         </div>
 
-        {/* 任务列表 */}
-        <div className="todo-list">
-          {filteredTodos.length === 0 ? (
-            <div className="empty-state">
-              <p>暂无任务</p>
-            </div>
-          ) : (
-            filteredTodos.map(todo => (
-              <div
-                key={todo.id}
-                className={`todo-item ${todo.completed ? 'completed' : ''}`}
-              >
-                <input
-                  type="checkbox"
-                  checked={todo.completed}
-                  onChange={() => toggleComplete(todo.id)}
-                  className="checkbox"
-                />
-                
-                {todo.isEditing ? (
-                  <div className="edit-container">
-                    <input
-                      type="text"
-                      value={editingText}
-                      onChange={(e) => setEditingText(e.target.value)}
-                      className="edit-input"
-                      onKeyPress={(e) => e.key === 'Enter' && saveEdit(todo.id)}
-                      autoFocus
-                    />
-                    <button
-                      onClick={() => saveEdit(todo.id)}
-                      className="icon-btn save-btn"
-                    >
-                      ✓
-                    </button>
-                    <button
-                      onClick={() => cancelEdit(todo.id)}
-                      className="icon-btn cancel-btn"
-                    >
-                      ✕
-                    </button>
-                  </div>
-                ) : (
-                  <>
-                    <span className="todo-text">{todo.text}</span>
-                    <div className="todo-actions">
-                      <button
-                        onClick={() => startEdit(todo.id)}
-                        className="icon-btn edit-btn"
-                        title="编辑"
-                      >
-                        ✏️
-                      </button>
-                      <button
-                        onClick={() => deleteTodo(todo.id)}
-                        className="icon-btn delete-btn"
-                        title="删除"
-                      >
-                        🗑️
-                      </button>
-                    </div>
-                  </>
-                )}
+        <ul className="todo-list">
+          {filteredTodos.map(todo => (
+            <li 
+              key={todo.id} 
+              className={`todo-item ${todo.completed ? 'completed' : ''}`}
+            >
+              <input
+                type="checkbox"
+                checked={todo.completed}
+                onChange={() => toggleTodo(todo.id)}
+              />
+              
+              {editingId === todo.id ? (
+                <div className="edit-group">
+                  <input
+                    type="text"
+                    value={editingText}
+                    onChange={(e) => setEditingText(e.target.value)}
+                    onKeyDown={(e) => e.key === 'Enter' && saveEdit()}
+                    autoFocus
+                  />
+                  <button onClick={saveEdit} className="save-btn">保存</button>
+                  <button onClick={cancelEdit} className="cancel-btn">取消</button>
+                </div>
+              ) : (
+                <span 
+                  className="todo-text"
+                  onDoubleClick={() => startEdit(todo.id, todo.text)}
+                >
+                  {todo.text}
+                </span>
+              )}
+              
+              <div className="actions">
+                <button 
+                  onClick={() => startEdit(todo.id, todo.text)}
+                  className="edit-btn"
+                  disabled={editingId !== null}
+                >
+                  ✏️
+                </button>
+                <button 
+                  onClick={() => deleteTodo(todo.id)}
+                  className="delete-btn"
+                >
+                  🗑️
+                </button>
               </div>
-            ))
-          )}
-        </div>
+            </li>
+          ))}
+        </ul>
 
-        {/* 清除已完成 */}
-        {stats.completed > 0 && (
-          <button
-            onClick={() => setTodos(todos.filter(t => !t.completed))}
-            className="clear-btn"
-          >
-            清除已完成 ({stats.completed})
-          </button>
+        {filteredTodos.length === 0 && (
+          <p className="empty">暂无任务</p>
         )}
       </div>
     </div>
